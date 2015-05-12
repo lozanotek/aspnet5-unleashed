@@ -17,6 +17,8 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
+[Aa]rtifacts
+
 
 # Roslyn cache directories
 *.ide/
@@ -33,7 +35,7 @@ TestResult.xml
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
-
+.vs*
 *.DS_*
 *_i.c
 *_p.c
