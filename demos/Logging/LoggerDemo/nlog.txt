@@ -1,0 +1,34 @@
+2015-05-12 12:27:28.3608 Info Adding target File Target[logfile]
+2015-05-12 12:27:28.3764 Info Adding target ColoredConsole Target[console]
+2015-05-12 12:27:28.3764 Info Configured from an XML element in C:\git\github\lozanotek\ASPNET5_Unleashed\demos\Logging\LoggerDemo\wwwroot\NLog.config...
+2015-05-12 12:27:28.3921 Info Found 28 configuration items
+2015-05-12 12:27:28.4077 Info Found 28 configuration items
+2015-05-12 12:27:28.4077 Info Watching path 'C:\git\github\lozanotek\ASPNET5_Unleashed\demos\Logging\LoggerDemo\wwwroot' filter 'NLog.config' for changes.
+2015-05-12 12:28:19.4186 Info Adding target File Target[logfile]
+2015-05-12 12:28:19.4343 Info Adding target ColoredConsole Target[console]
+2015-05-12 12:28:19.4499 Info Configured from an XML element in C:\git\github\lozanotek\ASPNET5_Unleashed\demos\Logging\LoggerDemo\wwwroot\NLog.config...
+2015-05-12 12:28:19.4499 Info Found 28 configuration items
+2015-05-12 12:28:19.4655 Info Found 28 configuration items
+2015-05-12 12:28:19.4812 Info Watching path 'C:\git\github\lozanotek\ASPNET5_Unleashed\demos\Logging\LoggerDemo\wwwroot' filter 'NLog.config' for changes.
+2015-05-12 12:30:07.0999 Info Adding target File Target[logfile]
+2015-05-12 12:30:07.1155 Info Adding target ColoredConsole Target[console]
+2015-05-12 12:30:07.1155 Info Configured from an XML element in C:\git\github\lozanotek\ASPNET5_Unleashed\demos\Logging\LoggerDemo\wwwroot\NLog.config...
+2015-05-12 12:30:07.1311 Info Found 28 configuration items
+2015-05-12 12:30:07.1311 Info Found 28 configuration items
+2015-05-12 12:30:07.1468 Info Watching path 'C:\git\github\lozanotek\ASPNET5_Unleashed\demos\Logging\LoggerDemo\wwwroot' filter 'NLog.config' for changes.
+2015-05-12 12:30:41.5734 Info Configuration file change detected! Reloading in 1000ms...
+2015-05-12 12:30:42.5975 Info Reloading configuration...
+2015-05-12 12:30:42.5975 Info Stopping file watching for path 'C:\git\github\lozanotek\ASPNET5_Unleashed\demos\Logging\LoggerDemo\wwwroot' filter 'NLog.config'
+2015-05-12 12:30:42.6287 Info Adding target File Target[logfile]
+2015-05-12 12:30:42.6287 Info Adding target ColoredConsole Target[console]
+2015-05-12 12:30:42.6287 Info Configured from an XML element in C:\git\github\lozanotek\ASPNET5_Unleashed\demos\Logging\LoggerDemo\wwwroot\NLog.config...
+2015-05-12 12:30:42.6287 Info Closing old configuration.
+2015-05-12 12:30:42.6600 Info Found 28 configuration items
+2015-05-12 12:30:42.6600 Info Found 28 configuration items
+2015-05-12 12:30:42.6912 Info Watching path 'C:\git\github\lozanotek\ASPNET5_Unleashed\demos\Logging\LoggerDemo\wwwroot' filter 'NLog.config' for changes.
+2015-05-12 12:30:51.6157 Info Adding target File Target[logfile]
+2015-05-12 12:30:51.6157 Info Adding target ColoredConsole Target[console]
+2015-05-12 12:30:51.6470 Info Configured from an XML element in C:\git\github\lozanotek\ASPNET5_Unleashed\demos\Logging\LoggerDemo\wwwroot\NLog.config...
+2015-05-12 12:30:51.7251 Info Found 28 configuration items
+2015-05-12 12:30:51.7407 Info Found 28 configuration items
+2015-05-12 12:30:51.7407 Info Watching path 'C:\git\github\lozanotek\ASPNET5_Unleashed\demos\Logging\LoggerDemo\wwwroot' filter 'NLog.config' for changes.

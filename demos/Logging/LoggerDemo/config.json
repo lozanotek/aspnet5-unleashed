@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "LoggerDemo"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-LoggerDemo-2f0abd64-db94-4e74-b836-c94c86347df0;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}

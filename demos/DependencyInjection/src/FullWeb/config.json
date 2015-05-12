@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "FullWeb"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-FullWeb-d324f0e5-b217-40ba-90c4-6b3bfe7bf5fd;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Demo library for the ASP.NET 5 Unleashed talk. More details at http://lzno.tk/aspnet-unleashed",
+  "authors": [ "jglozano" ],
+  "tags": [ "aspnet", "demo" ],
+  "projectUrl": "http://lzno.tk/aspnet-unleashed",
+  "licenseUrl": "",
+
+  "dependencies": {
+  },
+
+  "frameworks" : {
+    "dnx451": { },
+    "dnxcore50" : {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.0-beta-22816"
+      }
+    }
+  }
+}

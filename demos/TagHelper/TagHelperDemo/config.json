@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "TagHelperDemo"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-TagHelperDemo-780d1c8f-523a-48cc-934a-665a8718c3e8;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
