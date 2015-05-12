@@ -15,6 +15,7 @@ namespace EmptyWeb
 
         public void Configure(IApplicationBuilder app)
         {
+           
             app.Run(async (context) =>
             {
                 var service = context.ApplicationServices.GetService<IMessageService>();
