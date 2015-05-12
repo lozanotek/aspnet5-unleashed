@@ -1,4 +1,0 @@
-2015-05-12 12:30:52.1470|INFO|Microsoft.Framework.DependencyInjection.DataProtectionServices|0|User profile is available. Using 'C:\Users\Javier\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
-2015-05-12 12:30:52.2565|INFO|Microsoft.Net.Http.Server.WebListener|0|Start|
-2015-05-12 12:30:52.2720|INFO|Microsoft.Net.Http.Server.WebListener|0|Listening on prefix: http://localhost:5000/|
-2015-05-12 12:31:12.0175|INFO|LoggerDemo.Controllers.HomeController|0|Index action|RouterMiddleware.Invoke RouteCollection.RouteAsync TemplateRoute.RouteAsync MvcRouteHandler.RouteAsync
