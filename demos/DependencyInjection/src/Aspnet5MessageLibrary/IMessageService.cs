@@ -1,4 +1,6 @@
-﻿namespace Aspnet5MessageLibrary
+﻿using System;
+
+namespace Aspnet5MessageLibrary
 {
     public interface IMessageService
     {
