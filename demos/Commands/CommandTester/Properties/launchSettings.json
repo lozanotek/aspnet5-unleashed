@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HelloThere": {
+      "commandName": "HelloThere",
+      "commandLineArgs": "echo=\"hello world\""
+    }
+  }
+}

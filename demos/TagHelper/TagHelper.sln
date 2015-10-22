@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TagHelperDemo", "TagHelperDemo\TagHelperDemo.xproj", "{FEAC68CE-5F6A-4B99-B5EE-AF672D37BB19}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Aspnet5MessageLibrary", "Aspnet5MessageLibrary\Aspnet5MessageLibrary.xproj", "{0E374D82-2DAD-4ABD-A015-93201F857897}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CustomTags", "CustomTags\CustomTags.xproj", "{EB6853E5-5FD1-4F08-9A5F-FF6286CE3F03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{FEAC68CE-5F6A-4B99-B5EE-AF672D37BB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEAC68CE-5F6A-4B99-B5EE-AF672D37BB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEAC68CE-5F6A-4B99-B5EE-AF672D37BB19}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E374D82-2DAD-4ABD-A015-93201F857897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E374D82-2DAD-4ABD-A015-93201F857897}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E374D82-2DAD-4ABD-A015-93201F857897}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E374D82-2DAD-4ABD-A015-93201F857897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6853E5-5FD1-4F08-9A5F-FF6286CE3F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6853E5-5FD1-4F08-9A5F-FF6286CE3F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6853E5-5FD1-4F08-9A5F-FF6286CE3F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6853E5-5FD1-4F08-9A5F-FF6286CE3F03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

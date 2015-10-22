@@ -1,12 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C6B96F71-E53F-4800-AD05-ED5BC51EB00E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C6E1F84-1EFC-434E-871D-C6DB61CF3012}"
 	ProjectSection(SolutionItems) = preProject
+		ContainterIntegration.txt = ContainterIntegration.txt
 		global.json = global.json
 	EndProjectSection
 EndProject
@@ -15,6 +16,8 @@ EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Aspnet5MessageLibrary", "src\Aspnet5MessageLibrary\Aspnet5MessageLibrary.xproj", "{0E374D82-2DAD-4ABD-A015-93201F857897}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FullWeb", "src\FullWeb\FullWeb.xproj", "{2580E77A-0E07-4CE7-A296-1E05EC234ADC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microsoft.Framework.DependencyInjection.Ninject", "src\Microsoft.Framework.DependencyInjection.Ninject\Microsoft.Framework.DependencyInjection.Ninject.xproj", "{19124943-DEEF-4782-A7E8-DC91387EEDF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +37,10 @@ Global
 		{2580E77A-0E07-4CE7-A296-1E05EC234ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2580E77A-0E07-4CE7-A296-1E05EC234ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2580E77A-0E07-4CE7-A296-1E05EC234ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19124943-DEEF-4782-A7E8-DC91387EEDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19124943-DEEF-4782-A7E8-DC91387EEDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19124943-DEEF-4782-A7E8-DC91387EEDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19124943-DEEF-4782-A7E8-DC91387EEDF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +49,6 @@ Global
 		{0490E23E-4085-4028-B2DB-CEC7E7D0F84B} = {C6B96F71-E53F-4800-AD05-ED5BC51EB00E}
 		{0E374D82-2DAD-4ABD-A015-93201F857897} = {C6B96F71-E53F-4800-AD05-ED5BC51EB00E}
 		{2580E77A-0E07-4CE7-A296-1E05EC234ADC} = {C6B96F71-E53F-4800-AD05-ED5BC51EB00E}
+		{19124943-DEEF-4782-A7E8-DC91387EEDF3} = {C6B96F71-E53F-4800-AD05-ED5BC51EB00E}
 	EndGlobalSection
 EndGlobal

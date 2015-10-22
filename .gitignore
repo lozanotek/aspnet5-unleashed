@@ -33,7 +33,7 @@ bld/
 TestResult.xml
 
 # Logs
-__[Ll]ogs/*
+__[Ll]ogs/
 *.log
 nlog.txt
 

@@ -1,26 +1,40 @@
 ﻿using System;
+using Microsoft.Framework.Configuration;
 using Microsoft.Framework.Runtime;
 
 namespace CommandDemo
 {
     public class Program
     {
-        public IApplicationEnvironment ApplicationEnvironment { get; set; }
+        private readonly IApplicationEnvironment _appEnvironment;
+        public IConfiguration Configuration { get; set; }
 
-        public Program(IApplicationEnvironment applicationEnvironment)
+        public Program(IApplicationEnvironment appEnvironment)
         {
-            ApplicationEnvironment = applicationEnvironment;
+            _appEnvironment = appEnvironment;
         }
 
         public void Main(string[] args)
         {
-            Console.WriteLine("Command Demo");
+            var builder = new ConfigurationBuilder(_appEnvironment.ApplicationBasePath)
+               .AddCommandLine(args);
 
-            var framework = ApplicationEnvironment.RuntimeFramework;
-            var message = $"Framework: {framework.FullName}\r\nVersion:{framework.Version}";
+            Configuration = builder.Build();
+            Console.WriteLine("[Command Demo]");
 
+            var framework = _appEnvironment.RuntimeFramework;
+            var message = $"\tFramework: {framework.FullName}\r\n\tVersion:{framework.Version}";
             Console.WriteLine(message);
-            Console.In.ReadLine();
+
+            var echoText = Configuration.Get("echo");
+            if (!string.IsNullOrWhiteSpace(echoText))
+            {
+                Console.WriteLine($"\t[echo]: {echoText}", echoText);
+            }
+
+            Console.Write("Press any key to continue...");
+            // Not available in dnx core 5
+            //Console.ReadKey(true);
         }
     }
 }

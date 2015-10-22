@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LoggerDemo", "LoggerDemo\LoggerDemo.xproj", "{F1EF7E78-E2BC-44B4-B9D3-A57E3DA7955F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NLogLib", "NLogLib\NLogLib.xproj", "{55A182EC-D03F-43DE-BEF5-F4A063DD8BCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F1EF7E78-E2BC-44B4-B9D3-A57E3DA7955F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1EF7E78-E2BC-44B4-B9D3-A57E3DA7955F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1EF7E78-E2BC-44B4-B9D3-A57E3DA7955F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A182EC-D03F-43DE-BEF5-F4A063DD8BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A182EC-D03F-43DE-BEF5-F4A063DD8BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A182EC-D03F-43DE-BEF5-F4A063DD8BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A182EC-D03F-43DE-BEF5-F4A063DD8BCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

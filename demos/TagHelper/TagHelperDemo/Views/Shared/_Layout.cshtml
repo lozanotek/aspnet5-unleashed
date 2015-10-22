@@ -1,11 +1,9 @@
-﻿@inject IOptions<AppSettings> AppSettings
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>@ViewBag.Title - @AppSettings.Options.SiteTitle</title>
-
+        <title>TagHelper Demo</title>
         <environment names="Development">
             <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" />
             <link rel="stylesheet" href="~/lib/bootstrap-touch-carousel/css/bootstrap-touch-carousel.css" />
@@ -30,15 +28,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a asp-controller="Home" asp-action="Index" class="navbar-brand">@AppSettings.Options.SiteTitle</a>
+                    <a asp-controller="Home" asp-action="Index" class="navbar-brand">POCO Demo</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a asp-controller="Home" asp-action="Index">Home</a></li>
-                        <li><a asp-controller="Home" asp-action="About">About</a></li>
-                        <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
+                        <li><a href="~/">Home</a></li>
+                        <li><a href="~/hello">Hello (POCO)</a></li>
+                        <li><a href="~/hello/data" target="_blank">Hello (POCO)</a></li>
                     </ul>
-                    @await Html.PartialAsync("_LoginPartial")
                 </div>
             </div>
         </div>
@@ -46,7 +43,7 @@
             @RenderBody()
             <hr />
             <footer>
-                <p>&copy; 2015 - @AppSettings.Options.SiteTitle</p>
+                <p>&copy; 2015 - Lozanotek, Inc.</p>
             </footer>
         </div>
 

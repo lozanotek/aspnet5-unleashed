@@ -1,0 +1,22 @@
+﻿{
+    "version": "1.0.0",
+    "description": "NLogLib Class Library",
+    "authors": [ "jglozano" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "dependencies": {
+        "System.Collections": "4.0.10-beta-23019",
+        "System.Linq": "4.0.0-beta-23019",
+        "System.Runtime": "4.0.10-beta-23019",
+        "Microsoft.CSharp": "4.0.0-beta-23019",
+        "NLog": "4.1.2",
+        "Microsoft.Framework.Logging": "1.0.0-beta5",
+        "Microsoft.AspNet.Hosting" :  "1.0.0-beta5"
+    },
+
+    "frameworks": {
+        "dnx451": { }
+    }
+}

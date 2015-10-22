@@ -1,0 +1,16 @@
+// Add to project.json
+"Microsoft.Framework.DependencyInjection.Ninject": "1.0.0-beta5"
+
+// Add this reference
+using Microsoft.Framework.DependencyInjection.Ninject;
+using Ninject;
+
+// Replace the method defintion
+public IServiceProvider ConfigureServices(IServiceCollection services)
+{
+            services.AddTransient<IMessageService, MessageService>();
+            var kernel = new StandardKernel();
+            kernel.Populate(services);
+
+            return kernel.Get<IServiceProvider>();
+}
