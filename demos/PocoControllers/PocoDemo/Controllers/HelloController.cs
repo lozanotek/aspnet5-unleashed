@@ -27,7 +27,7 @@ namespace PocoDemo.Controllers
             };
         }
 
-        public object Data()
+        public dynamic Data()
         {
             return new
             {
