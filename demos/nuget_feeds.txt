@@ -1,0 +1,5 @@
+NuGet v3 (VS2015+)
+https://www.myget.org/F/47ae6954c5754283a729a7b0d5b2f17d/api/v3/index.json
+
+NuGet v2 (VS2012+)
+https://www.myget.org/F/47ae6954c5754283a729a7b0d5b2f17d/api/v2
