@@ -1,0 +1,141 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    background-position: center top;
+    color: #444;
+    font-size: 16px;
+    font-family: 'Segoe UI', Verdana;
+}
+
+h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.half {
+    width: 49%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#header {
+    padding: 10px 5px;
+    text-align: center;
+    background-color: #083358;
+    background-position: center center;
+}
+
+    #header h1 {
+        color: #fff;
+    }
+
+    #header a:hover {
+        text-decoration: none;
+        text-decoration-style: none;
+    }
+
+
+#container {
+    color: #626262;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+p.body {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+#slogan {
+    color: #004694;
+    font-size: 2.7em;
+    line-height: 1.5em;
+}
+
+.footer {
+    background-color: #e4f3f8;
+    background-position: center center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+    .footer a {
+        display: block;
+        width: 100%;
+        height: 65px;
+        text-align: center;
+    }
+
+#speakers {
+    max-width: 800px;
+    margin: 60px auto;
+    overflow: hidden;
+}
+
+.speaker {
+    clear: both;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+    .speaker .speaker-info {
+        margin-top: 30px;
+    }
+
+#speakers h3 .first-name {
+    color: #33abd2;
+}
+
+.speaker img {
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.speaker div {
+    float: right;
+    max-width: 680px;
+}
+
+.speaker h3 {
+    color: #083358;
+    font-weight: normal;
+    float: left;
+    margin: 0;
+}
+
+.speaker .company-name {
+    color: #8dc63f;
+    float: right;
+}
+
+.speaker a {
+    color: #f36f30;
+}
+
+.speaker .speaker-website {
+    clear: both;
+    float: left;
+}
+
+.speaker .speaker-social {
+    clear: both;
+    float: left;
+    margin-top: 5px;
+}
+
+.speaker p {
+    clear: both;
+    float: left;
+    margin-top: 15px;
+}

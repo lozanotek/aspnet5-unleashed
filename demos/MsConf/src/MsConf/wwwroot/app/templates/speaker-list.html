@@ -1,0 +1,14 @@
+﻿<h2>Conference Speakers</h2>
+<div id="speakers">
+    <div class="speaker" ng-repeat="speaker in speakers">
+
+        <div class="speaker-info">
+            <img ng-src="{{speaker.Picture}}" width="100" height="100" ng-alt="{{speaker.Name}}"/>
+            <br />
+            <h3><span class="first-name">{{speaker.FirstName}}</span> {{speaker.LastName}}
+            </h3>
+            <a class="speaker-website" ng-href="{{speaker.Website}}" target="_blank"><span>{{speaker.Website}}</span></a>
+            <p>{{speaker.Bio}}</p>
+        </div>
+    </div>
+</div>

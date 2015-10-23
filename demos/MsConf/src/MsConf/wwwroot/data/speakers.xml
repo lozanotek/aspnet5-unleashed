@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Speakers>
+    <Speaker>
+        <Id>scott-hanselman</Id>
+        <FirstName>Scott</FirstName>
+        <LastName>Hanselman</LastName>
+        <Bio>Scott Hanselman works for Microsoft as Principal Community Architect for Web Platform and Tools, aiming to spread the good word about developing software, most often on the Microsoft stack. Before this he was the Chief Architect at Corillian Corporation, now a part of Checkfree, for 6+ years and before that he was a Principal Consultant at STEP Technology for nearly 7 years. He will speak about computers (and other passions) whenever someone will listen to him. He's written in a few books, most recently with Bill Evjen and Devin Rader on Professional ASP.NET. He blogs at http://www.hanselman.com for the last 10 years and podcasts weekly at http://www.hanselminutes.com and http://www.thisdeveloperslife.com.</Bio>
+        <Picture>/img/speakers/scott-hanselman.jpg</Picture>
+        <Website>http://www.hanselman.com/blog</Website>
+    </Speaker>
+    <Speaker>
+        <Id>scott-hunter</Id>
+        <FirstName>Scott</FirstName>
+        <LastName>Hunter</LastName>
+        <Bio>I work at Microsoft on all Web: ASP.NET, MVC, Web API, Web Pages, SignalR, Entity Framework, Visual Studio Web Tooling, Nuget and Azure SDK's.</Bio>
+        <Picture>/img/speakers/scott-hunter.jpg</Picture>
+        <Website>http://blogs.msdn.com/b/scothu</Website>
+    </Speaker>
+    <Speaker>
+        <Id>scott-guthrie</Id>
+        <FirstName>Scott</FirstName>
+        <LastName>Guthrie</LastName>
+        <Bio>As executive vice president of the Microsoft Cloud+Enterprise group, Scott Guthrie is responsible for the company’s cloud infrastructure, server, database, management and development tools businesses. His engineering team builds Microsoft Azure, Windows Server, SQL Server, Active Directory, System Center, Visual Studio and .NET. Prior to leading the Cloud and Enterprise group, Guthrie helped lead Microsoft Azure, Microsoft’s public cloud platform. Since joining the company in 1997, he has made critical contributions to many of Microsoft’s key cloud, server and development technologies and was one of the original founders of the .NET project. Guthrie graduated with a bachelor’s degree in computer science from Duke University..</Bio>
+        <Picture>/img/speakers/scott-guthrie.jpg</Picture>
+        <Website>http://weblogs.asp.net/scottgu</Website>
+    </Speaker>
+</Speakers>
